@@ -1,2 +1,4 @@
 # calculadora-IMC
-Meu primeiro projeto
+//Meu primeiro projeto.
+//não responsivo.
+//mas feito com amor♥️.
