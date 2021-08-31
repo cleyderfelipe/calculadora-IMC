@@ -1,250 +1,136 @@
-body{background-color: #fff;
+body {
+  background-color: #fff;
+}
 
- 
+.container {
+
+  position: absolute;
+  height: 600px;
+  width: 95%;
+  background-color: rgb(228,228,228);
+  border-radius: 50px;
+  align-content: center;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  padding-bottom: 20px;
+  box-shadow: inset 0 0 3px 5px rgb(86,86,86), 0px 0px 0px 2px #fff, 0px 0px 5px 5px rgb(86,86,86);
+  color: rgb(86,86,86);
+  margin-top: 75px;
+
+}
+.upText {
+  position: relative;
+  top: -10px;
+  text-align: center;
+  font-family: Tahoma;
+  box-shadow: inset 0px -5px 2px 0px rgb(86,86,86),0px 2px 0px 0px #fff,0px 10px 7px 0px rgb(86,86,86);
+  font-size: 1rem;
+}
+.Nome {
+  font-size: 1.4rem;
+  font-family: Tahoma;
+  margin-left: 20px;
+}
+
+.inputUm {
+  position: relative;
+  top: -50px;
+  left: 150px;
+  height: 38px;
+  width: 250px;
+  margin-left: -75px;
+  border-radius: 10px;
+  background-color: rgb(193,193,193);
+  color: #555;
+  box-shadow: inset 0px 0px 2px 4px rgb(86,86,86), 0px 0px 0px 1px #fff,0px 0px 2px 4px rgb(86,86,86);
+  font-size: 1.5rem;
+  outline: none;
+  text-indent: 20px;
+  font-family: Tahoma;
+
+}
+.Peso {
+  font-size: 1.4rem;
+  font-family: Tahoma;
+  position: absolute;
+  left: 20px;
+  top: 140px
 
 }
 
-.container{
-
-position:absolute;
-
-height:600px;
-
-width:95%;
-
-background-color:rgb(228,228,228) ;
-
-border-radius:50px;
-
-align-content:center;
-
-overflow-x:hidden;
-
-overflow-y:hidden;
-
-padding-bottom:20px;
-
-box-shadow:inset 0 0 3px 5px rgb(86,86,86), 0px 0px 0px 2px #fff, 0px 0px 5px 5px rgb(86,86,86);
-
-color:rgb(86,86,86);
-
-margin-top:75px;
-
+.inputDois {
+  position: relative;
+  top: -50px;
+  left: 150px;
+  height: 38px;
+  border-radius: 10px;
+  background-color: rgb(193,193,193);
+  color: #555;
+  box-shadow: inset 0px 0px 2px 4px rgb(86,86,86), 0px 0px 0px 1px #fff,0px 0px 2px 4px rgb(86,86,86);
+  width: 250px;
+  margin-left: -75px;
+  font-size: 1.5rem;
+  font-family: Tahoma;
+  outline: none;
+  text-indent: 20px;
 }
 
-.upText{
-
-position:relative;
-
-top:-10px;
-
-text-align: center;
-
-font-family:Tahoma;
-
-box-shadow:inset 0px -5px 2px 0px rgb(86,86,86),0px 2px 0px 0px #fff,0px 10px 7px 0px rgb(86,86,86) ;
-
-font-size:1rem;}
-
-.Nome{
-
-font-size:1.4rem;
-
-font-family: Tahoma;
-
-margin-left:20px;
-
+.Altura {
+  position: absolute;
+  font-size: 1.4rem;
+  font-family: Tahoma;
+  margin-top: 50px;
+  margin-left: 20px;
 }
 
-.inputUm{
+.inputTres {
+  position: relative;
+  top: -50px;
+  left: 150px;
+  height: 38px;
+  border-radius: 10px;
+  background-color: rgb(193,193,193);
 
-position:relative;
-
-top:-50px;
-
-left:150px;
-
-height:38px;
-
-width:250px;
-
-margin-left:-75px;
-
-border-radius:10px;
-
-background-color:rgb(193,193,193);
-
-color:#555;
-
-box-shadow: inset 0px 0px 2px 4px rgb(86,86,86), 0px 0px 0px 1px #fff,0px 0px 2px 4px rgb(86,86,86);
-
-font-size:1.5rem;
-
-outline:none;
-
-text-indent:20px;
-
- font-family:Tahoma;
-
+  color: #555;
+  box-shadow: inset 0px 0px 2px 4px rgb(86,86,86), 0px 0px 0px 1px #fff,0px 0px 2px 4px rgb(86,86,86);
+  width: 250px;
+  margin-left: -75px;
+  font-size: 1.5rem;
+  outline: none;
+  text-indent: 20px;
+  font-family: Tahoma;
 }
 
-.Peso{
-
-font-size:1.4rem;
-
-font-family: Tahoma;
-
-position:absolute;
-
-left:20px;
-
-top:140px
-
+.calcular {
+  position: relative;
+  top: 130px;
+  font-family: Tahoma;
+  width: 50%;
+  height: 38px;
+  margin-left: 25%;
+  border-radius: 15px;
+  font-size: 20px;
+  border: 2px solid rgb(100,100,102);
+  background-color: rgb(193,193,193);
+  box-shadow: inset 0px 0px 2px 2px rgb(86,86,86), 0px 0px 0px 1px #fff,0px 0px 2px 2px rgb(86,86,86);
+  color: rgb(86,86,86);
+  outline: none;
+  cursor: pointer;
 }
 
-.inputDois{
-
-position:relative;
-
-top:-50px;
-
-left:150px;
-
-height:38px;
-
-border-radius:10px;
-
-background-color:rgb(193,193,193);
-
-color:#555;
-
-box-shadow: inset 0px 0px 2px 4px rgb(86,86,86), 0px 0px 0px 1px #fff,0px 0px 2px 4px rgb(86,86,86) ;
-
-width:250px;
-
-margin-left:-75px;
-
-font-size:1.5rem;
-
-font-family:Tahoma;
-
-outline:none;
-
-text-indent:20px;
-
- 
-
+.result {
+  width: 80%;
+  height: 200px;
+  margin: 10%;
+  border-radius: 10px;
+  background-color: rgb(240,243,237);
+  margin-top: 150px;
+  box-shadow: inset 0px 0px 2px 4px rgb(86,86,86), 0px 0px 0px 1px #fff,0px 0px 2px 4px rgb(86,86,86);
+  padding-top: 30px;
+  font-size: 1.5rem;
+  font-family: Courier;
+  overflow-x: hidden;
+  text-align: center;
+  text-indent: 10px;
+  font-weight: 700;
 }
-
-.Altura{
-
-position:absolute;
-
-font-size:1.4rem;
-
-font-family:Tahoma;
-
-margin-top:50px;
-
-margin-left:20px;
-
-}
-
-.inputTres{
-
-position: relative;
-
-top:-50px;
-
-left:150px;
-
-height:38px;
-
-border-radius:10px;
-
-background-color:rgb(193,193,193);
-
-color:#555;
-
-box-shadow: inset 0px 0px 2px 4px rgb(86,86,86), 0px 0px 0px 1px #fff,0px 0px 2px 4px rgb(86,86,86) ;
-
-width:250px;
-
-margin-left:-75px;
-
-font-size:1.5rem;
-
-outline:none;
-
-text-indent:20px;
-
-font-family:Tahoma;
-
-  
-
-}
-
-.calcular{
-
-position:relative;
-
-top:130px ;
-
-font-family: Tahoma;
-
-width:50%;
-
-height:38px;
-
-margin-left:25%;
-
-border-radius:15px;
-
-font-size:20px;
-
-border:2px solid rgb(100,100,102);
-
-background-color:rgb(193,193,193);
-
-box-shadow: inset 0px 0px 2px 2px rgb(86,86,86), 0px 0px 0px 1px #fff,0px 0px 2px 2px rgb(86,86,86) ;
-
-color:rgb(86,86,86);
-
-outline:none;
-
-cursor:pointer;
-
-}
-
-.result{
-
-width:80%;
-
-height:200px;
-
-margin:10%;
-
-border-radius:10px;
-
-background-color: rgb(240,243,237);
-
-margin-top:150px;
-
-box-shadow: inset 0px 0px 2px 4px rgb(86,86,86), 0px 0px 0px 1px #fff,0px 0px 2px 4px rgb(86,86,86) ;
-
-padding-top:30px;
-
-font-size:1.5rem;
-
-font-family:Courier;
-
-overflow-x:hidden;
-
-text-align:center;
-
-text-indent:10px;
-
-font-weight:700;
-
-}
-
